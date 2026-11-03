@@ -1,0 +1,13 @@
+prompt_number,model,prompt
+1,"Claude Sonnet 5.5","I'm starting this assignment and want to understand it first. Explain what we're building, how it should work, and what I need to submit in simple words. Don't write any code yet."
+2,"Claude Sonnet 5.5","Here's my repo, https://github.com/manojkmohan5/mp3. Read the assignment, README and existing code. Explain the project structure and how Express, Mongoose, and MongoDB work together. Then suggest the order we should build things."
+3,"Claude Sonnet 5.5","Let's set up the backend using Node.js 24. Explain each change briefly. I'll set up MongoDB Atlas myself, so walk me through that and show me where to add my connection string safely."
+4,"Claude Sonnet 5.5","Explain the User and Task models and how they're connected, then implement them. Follow the assignment's required rules."
+5,"Claude Sonnet 5.5","Let's build the GET endpoints for users and tasks. Add the required filtering, sorting, field selection, pagination, and counting using Mongoose. Show me a few example requests so I understand how they work."
+6,"Claude Sonnet 5.5","Now add user creation and updates. Follow the assignment's PUT replacement rules and keep task assignments consistent when pendingTasks or a user's name changes. Explain one example."
+7,"Claude Sonnet 5.5","Next, add task creation and updates. Handle assigning, moving, completing, reopening, and unassigning tasks. Keep users' pendingTasks correct and make sure failed requests don't leave partial changes."
+8,"Claude Sonnet 5.5","Let's add deletion for users and tasks. Clean up related references and make sure deleting a user unassigns all their tasks, including completed ones. Follow the assignment's response and status rules."
+9,"Claude Sonnet 5.5","Review and test everything against the assignment. Check query combinations, validation order, PUT defaults, response formats, and two-way references. Verify that failed requests leave the database unchanged. Fix issues and explain what you found."
+10,"Claude Sonnet 5.5","Help me prepare the app for Render. I'll deploy it manually, so give me short steps with the build command, start command, and environment variables. Also check that .env is excluded from Git."
+11,"Claude Sonnet 5.5","Here's my Render URL, https://cs409-mp3-manojkmohan5.onrender.com. Check the live API, set API_URL in submit.js without changing AUTOGRADER_URL, and run the self-check. Check if there are any failures, if yes fix them, and tell me if I need to redeploy."
+12,"Claude Sonnet 5.5","Finally, check whether everything is ready to submit. Summarize what we built, the actual test results, and anything unfinished. Give me a short submission checklist covering chat logs, sources, the LLM survey, and the official submission form."
